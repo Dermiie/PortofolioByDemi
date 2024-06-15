@@ -1,4 +1,4 @@
-function UserIcon() {
+function PhoneIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -6,15 +6,15 @@ function UserIcon() {
       viewBox="0 0 24 24"
       strokeWidth={1}
       stroke="currentColor"
-      className="size-12"
+      className="size-6"
     >
       <path
         strokeLinecap="round"
         strokeLinejoin="round"
-        d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+        d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
       />
     </svg>
   );
 }
 
-export default UserIcon;
+export default PhoneIcon;
