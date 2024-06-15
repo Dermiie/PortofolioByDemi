@@ -1,12 +1,12 @@
-function Location() {
+function LocationIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"
-      strokeWidth={1}
+      strokeWidth={1.2}
       stroke="currentColor"
-      className="size-6"
+      className="size-8"
     >
       <path
         strokeLinecap="round"
@@ -22,4 +22,4 @@ function Location() {
   );
 }
 
-export default Location;
+export default LocationIcon;

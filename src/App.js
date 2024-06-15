@@ -4,6 +4,7 @@ import About from './components/About';
 import Education from './components/Education';
 import Skills from './components/Skills';
 import { useState } from 'react';
+import Contact from './components/Contact';
 
 function App() {
   const [isActive, setIsActive] = useState('home');
@@ -15,15 +16,11 @@ function App() {
       {isActive === 'about' && <About></About>}
       {isActive === 'skill' && <Skills></Skills>}
       {isActive === 'resume' && <Education></Education>}
+      {isActive === 'contact' && <Contact></Contact>}
     </div>
   );
 }
 //icon attributes in the footer
-/* <div className="credits">
-<h2>Credits</h2>
-<p>
-  Icons made by <a href="https://www.flaticon.com/authors/author-name" title="Author Name">Author Name</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-</p>
-</div> */
+/*  */
 
 export default App;
