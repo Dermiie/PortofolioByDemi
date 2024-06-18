@@ -14,7 +14,7 @@ function App() {
       <NavBar isActive={isActive} setIsActive={setIsActive}></NavBar>
       {isActive === 'home' && <HomePage></HomePage>}
       {isActive === 'about' && <About></About>}
-      {isActive === 'skill' && <Skills></Skills>}
+      {isActive === 'skills' && <Skills></Skills>}
       {isActive === 'resume' && <Education></Education>}
       {isActive === 'contact' && <Contact></Contact>}
     </div>

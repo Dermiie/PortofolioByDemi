@@ -6,7 +6,7 @@ function Contact() {
   return (
     <div className="bg-stone-50 h-screen text-center gap-5 grid grid-rows-[10rem,auto,10rem]">
       <header>
-        <p className="text-4xl font-medium  uppercase text-stone-700 tracking-normal  pt-[6rem]">
+        <p className="text-lg md:text-2xl lg:text-4xl font-medium  uppercase text-stone-700 tracking-normal  pt-[6rem]">
           Contact
         </p>
       </header>

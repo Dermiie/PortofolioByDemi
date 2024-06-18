@@ -6,7 +6,7 @@ function DocIcon() {
       viewBox="0 0 24 24"
       strokeWidth={1.2}
       stroke="currentColor"
-      className="size-8"
+      className="size-4"
     >
       <path
         strokeLinecap="round"
