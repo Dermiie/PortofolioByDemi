@@ -111,7 +111,7 @@ function Education() {
             <p className="bg-stone-100 text-center inline-block rounded-md p-2">
               2011 - 2017
             </p>
-            <p className="italic font-normal mb-1">
+            <p className="italic text-center font-normal lg:text mb-1">
               RenMoney MFB, Lagos, Nigeria
             </p>
             <ul>

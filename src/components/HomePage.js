@@ -2,8 +2,8 @@ import { ReactTyped } from 'react-typed';
 
 function HomePage() {
   return (
-    <div className="bg-blue-900 w-full h-screen mt-[5.5rem]">
-      <div className="w-[70%] h-[100%] mx-auto pt-8 lg:justify-center flex flex-col gap-8">
+    <div className="bg-blue-900 w-full h-screen pt-[7rem]">
+      <div className="w-[70%] h-[100%] mx-auto pt-12 lg:justify-center flex flex-col gap-8">
         <p className="text-blue-400">Hi, my name is</p>
         <div>
           <h1 className="text-xl md:text-3xl lg:text-6xl font-bold text-stone-300 mb-4">

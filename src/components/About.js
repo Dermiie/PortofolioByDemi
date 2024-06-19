@@ -2,7 +2,7 @@ import ChevronRight from '../assets/svg/ChevronRight';
 
 function About() {
   return (
-    <div className="h-screen mt-[5.5rem] absolute flex flex-col lg:pt-24 bg-stone-50 lg:text-center">
+    <div className="h-screen pt-[5.5rem] absolute flex flex-col lg:pt-24 bg-stone-50 lg:text-center">
       <header className=" pt-4 mb-2  lg:mb-8 lg:pt-0">
         <h1 className="text-lg md:text-2xl lg:text-4xl font-medium text-center  text-stone-700 tracking-normal  lg:pt-[2rem]">
           ABOUT
@@ -16,11 +16,11 @@ function About() {
           hand and collaborate effectively to achieve set goals. I thrive on
           challenges and see every task as an opportunity to grow and improve
         </p>
-        <div className="pt-4 lg:pt-10 flex lg:w-[75%] lg:mx-auto mt-7 flex-col gap-4">
+        <div className="pt-4 lg:pt-10 flex lg:w-[75%] lg:mx-auto mt-7 flex-col lg:gap-4">
           <h2 className="text-lg md:text-xl lg:text-3xl font-bold text-center text-stone-400">
             Software & web developer
           </h2>
-          <p className="text-xl italic">
+          <p className="text-xl mb-6 lg:mb-0 italic">
             I'm a developer that welcomes challenges and architect solutions. I
             code beautifully simple things and i love what i do
           </p>

@@ -8,7 +8,7 @@ import react from '../assets/images/react.png';
 
 function Skills() {
   return (
-    <div className="h-screen mt-[6rem]  bg-stone-50 text-center">
+    <div className="h-screen pt-[6rem]  bg-stone-50 text-center">
       <header className="mb-2 md:mb-4 lg:mb-8">
         <h1 className="text-lg md:text-xl lg:text-4xl font-bold   text-stone-700 tracking-normal pt-2  lg:pt-[2rem]">
           SKILLS

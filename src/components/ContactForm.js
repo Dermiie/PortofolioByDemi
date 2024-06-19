@@ -1,16 +1,16 @@
 function ContactForm() {
   return (
     <form>
-      <div className="flex gap-4 mb-4">
+      <div className="flex flex-col lg:flex-row gap-4 mb-4">
         <input
           type="text"
           placeholder="Your name"
-          className="border w-[50%] rounded-md p-2"
+          className="border lg:w-[50%] rounded-md p-2"
         ></input>
         <input
           type="email"
           placeholder="Your Email"
-          className="border w-[50%] rounded-md p-2"
+          className="border lg:w-[50%] rounded-md p-2"
         ></input>
       </div>
       <input
@@ -26,7 +26,7 @@ function ContactForm() {
 
       <button
         type="submit"
-        className="px-8 py-4 rounded-full bg-blue-500 text-xl text-white"
+        className="px-4 py-3 lg:px-8 lg:py-3 rounded-full bg-blue-900 text-xl mt-5 text-white"
       >
         Submit Message
       </button>
