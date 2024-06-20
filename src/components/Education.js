@@ -5,7 +5,7 @@ import usepopcorn from '../assets/images/usePopcorn.png';
 
 function Education() {
   return (
-    <div className="bg-stone-50 mt-[5.5rem] lg:text-center">
+    <div className="bg-stone-50 pt-[5.5rem] lg:text-center">
       <header className=" lg:mb-14 lg:w-[80%] text-center mx-auto pt-[1rem] lg:pt-[2rem]">
         <div className="lg:mb-4 lg:w-[75%] px-7 mx-auto">
           <h3 className="lg:text-3xl md:text-xl text-lg font-bold text-center text-stone-400 lg:mb-3">
@@ -29,6 +29,9 @@ function Education() {
           <div className="border flex flex-col gap-7 p-4 text-start max-h-[24rem] overflow-scroll rounded-md shadow-md ">
             <div className="flex flex-col lg:flex-row gap-4 items-center">
               <img
+                onClick={() =>
+                  window.open('https://omnifood-demi1.netlify.app/', '_target')
+                }
                 src={omnifood}
                 alt="omnifood-app"
                 className="h-24 w-48 hover:h-28 hover:w-[12.2rem] hover:transition-all"
@@ -48,6 +51,9 @@ function Education() {
             </div>
             <div className="flex flex-col lg:flex-row gap-4 items-center">
               <img
+                onClick={() =>
+                  window.open('https://dicegame-demi.netlify.app', '_target')
+                }
                 src={dicegame}
                 alt="dicgame-app"
                 className="h-24 w-48 hover:h-28 hover:w-[12.2rem] hover:transition-all"
@@ -68,6 +74,9 @@ function Education() {
             </div>
             <div className="flex flex-col lg:flex-row gap-4 items-center">
               <img
+                onClick={() =>
+                  window.open('https://usepopcorn-demi.netlify.app/', '_target')
+                }
                 src={usepopcorn}
                 alt="Usepopcorn-app"
                 className="h-24 w-48 hover:h-28 hover:w-[12.2rem] hover:transition-all"
@@ -109,7 +118,7 @@ function Education() {
               Frontend Developer Intern
             </h3>
             <p className="bg-stone-100 text-center inline-block rounded-md p-2">
-              2011 - 2017
+              Jun - Oct 2022
             </p>
             <p className="italic text-center font-normal lg:text mb-1">
               RenMoney MFB, Lagos, Nigeria

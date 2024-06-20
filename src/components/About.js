@@ -2,13 +2,13 @@ import ChevronRight from '../assets/svg/ChevronRight';
 
 function About() {
   return (
-    <div className="h-screen pt-[5.5rem] absolute flex flex-col lg:pt-24 bg-stone-50 lg:text-center">
+    <div className="h-screen pt-[5.5rem] flex flex-col lg:pt-24 bg-stone-50 lg:text-center">
       <header className=" pt-4 mb-2  lg:mb-8 lg:pt-0">
         <h1 className="text-lg md:text-2xl lg:text-4xl font-medium text-center  text-stone-700 tracking-normal  lg:pt-[2rem]">
           ABOUT
         </h1>
       </header>
-      <main className="w-[75%] mx-auto flex flex-col">
+      <main className="px-5 md:w-[85%] mx-auto flex flex-col">
         <p className="md:text-lg lg:text-xl">
           I'm a frontend and React JS developer. I'm so passionate about
           software development and always opened to learning and improving my
@@ -24,8 +24,8 @@ function About() {
             I'm a developer that welcomes challenges and architect solutions. I
             code beautifully simple things and i love what i do
           </p>
-          <div className="flex flex-col align-middle  lg:flex-row lg:gap-12 justify-center text-start">
-            <ul>
+          <div className="flex flex-col align-middle  lg:flex-row lg:gap-12 justify-center lg:text-start">
+            <ul className="overflow-x-auto ">
               <li className="text-xl mb-4 flex gap-3 ">
                 <span className="flex gap-1">
                   <ChevronRight></ChevronRight>
