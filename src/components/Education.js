@@ -158,7 +158,7 @@ function Education() {
             </ul>
           </div>
           <a
-            href="file:///C:/Users/44744/Downloads/CV%20DEMI.pdf"
+            href="https://www.canva.com/design/DAGItgyECjw/3qJ3BJ5Z8_9kwUWcGZY4mw/view?utm_content=DAGItgyECjw&utm_campaign=designshare&utm_medium=link&utm_source=editor"
             className="flex justify-center mb-4"
           >
             <button className="px-4 py-1 lg:px-8 lg:py-3 rounded-full bg-blue-900 text-xl mt-5 text-white">
